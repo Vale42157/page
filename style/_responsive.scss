@@ -1,0 +1,11 @@
+@mixin lx {
+  @media screen and (max-width: $screen-xl) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media screen and (max-width: $screen-md) {
+    @content;
+  }
+}
